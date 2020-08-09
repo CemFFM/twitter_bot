@@ -1,0 +1,4 @@
+tweepy==3.5.0
+pyopenssl==0.13
+ndg-httpsclient==0.4.0
+pyasn1==0.1.9
