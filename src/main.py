@@ -8,7 +8,7 @@ def load_conf(filename):
         return json.load(f)
 
 def main():
-    conf_file = '/Users/Cem/Desktop/twitter_bot-master/data/bots.conf'
+    conf_file = '/Users/Cem/Desktop/twitter_bot/data/bots.conf'
     conf = load_conf(conf_file)
     for bot_username in conf['bot_usernames']:
         try:
