@@ -1,5 +1,5 @@
-import tweepy
 import json
+import tweepy
 from random import choice
 
 class TwitterBot:
